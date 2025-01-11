@@ -1,0 +1,237 @@
+# 导航菜单配置
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  清单||fas fa-list:
+    音乐: /music/ || fas fa-music
+    电影: /movies/ || fas fa-video
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+# 网站图标和标题
+favicon: /img/favicon.png
+site_title: LD's Blog
+
+# 主题颜色
+theme_color:
+  enable: true
+  main: "#49B1F5"
+  paginator: "#00c4b6"
+  button_hover: "#FF7242"
+  text_selection: "#00c4b6"
+  link_color: "#99a9bf"
+  meta_color: "#858585"
+  hr_color: "#A4D8FA"
+  code_foreground: "#F47466"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: "#00c4b6"
+  blockquote_padding_color: "#49b1f5"
+  blockquote_background_color: "#49b1f5"
+
+# 代码高亮主题
+highlight_theme: light
+
+# 社交图标
+social:
+  fab fa-github: https://github.com/sadasdf1235 || Github
+  fas fa-envelope: mailto:tgb80576@163.com || Email
+
+# 头像
+avatar:
+  img: /img/avatar.jpg
+  effect: false # 关闭持续旋转
+  rotate: true # 开启悬浮旋转
+
+# 顶部图
+top_img: true
+
+# 文章封面
+cover:
+  enable: true
+  default_cover:
+    - https://api.btstu.cn/sjbz/api.php?lx=dongman
+    - https://api.yimian.xyz/img?type=moe
+    - https://www.dmoe.cc/random.php
+    - https://api.ixiaowai.cn/api/api.php
+    - https://api.vvhan.com/api/acgimg
+  randomcover: true
+
+# 侧边栏设置
+aside:
+  enable: true
+  mobile: true
+  position: right
+  card_author:
+    enable: true
+    description: "热爱编程，热爱生活。不断学习，不断成长。"
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的博客
+  card_recent_post:
+    enable: true
+    limit: 5
+  card_categories:
+    enable: true
+    limit: 8
+  card_tags:
+    enable: true
+    limit: 40
+    color: false
+  card_archives:
+    enable: true
+    type: monthly
+    limit: 8
+
+# 页脚设置
+footer:
+  owner:
+    enable: true
+    since: 2024
+  custom_text:
+    - '<a href="https://github.com/sadasdf1235"><i class="fab fa-github"></i> GitHub</a>'
+    - '本站由 <a href="https://hexo.io"><span>Hexo</span></a> 强力驱动'
+    - '主题 <a href="https://github.com/jerryc127/hexo-theme-butterfly"><span>Butterfly</span></a>'
+  copyright: true
+  framework:
+    enable: false
+  driven:
+    enable: false
+  ICP:
+    enable: false
+    url:
+    text:
+  runtime:
+    enable: true
+    launch_time: 2025/1/10 00:00:00
+    work_img: /img/loading.gif
+    work_description: "努力运行"
+
+# 背景设置
+index_img: /img/pages/index.png
+default_top_img: /img/pages/default.png
+archive_img: /img/pages/archive.png
+tag_img: /img/pages/tags.png
+category_img: /img/pages/categories.png
+about_img: /img/pages/about.png
+404_img: /img/pages/404.png
+
+# 网站加载动画
+preloader:
+  enable: true
+  source: 3
+  load_color: "#37474f"
+  load_style: "pure-circle"
+  load_time: 1000
+
+# 图片延迟加载
+lazyload:
+  enable: true
+  placeholder: /img/pages/cover/default.png
+  blur: false
+
+# 随机图片设置
+randomlinks:
+  enable: true
+  number: 8
+  links:
+    - "https://api.btstu.cn/sjbz/api.php?lx=dongman"
+    - "https://api.yimian.xyz/img?type=moe"
+    - "https://www.dmoe.cc/random.php"
+    - "https://api.ixiaowai.cn/api/api.php"
+    - "https://api.vvhan.com/api/acgimg"
+    - "https://api.mtyqx.cn/tapi/random.php"
+    - "https://api.mtyqx.cn/api/random.php"
+    - "https://api.btstu.cn/sjbz/api.php?lx=suiji"
+
+# 页面优化
+disable_mobile_sidebar: true
+disable_scrollreveal: false
+disable_top_img: false
+disable_post_img: false
+
+# 页面遮罩
+mask_alpha: 0.4
+mask_color: rgba(0,0,0,0.4)
+
+# 图片效果
+medium_zoom: true
+fancybox: true
+image_effect:
+  opacity: 1
+
+# 背景特效
+canvas_ribbon:
+  enable: true
+  size: 150
+  alpha: 0.4
+  zIndex: -1
+  click_to_change: true
+  mobile: false
+
+canvas_fluttering_ribbon:
+  enable: true
+  size: 90
+  alpha: 0.3
+  zIndex: -1
+  click_to_change: true
+  mobile: false
+
+# 页面美化
+beautify:
+  enable: true
+  field: site
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: "#F47466"
+
+# 打字效果
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+    loop: true
+    showCursor: true
+    startDelay: 300
+    backSpeed: 50
+    typeSpeed: 70
+  source: 3
+  sub: []
+
+# 鼠标点击效果
+click_heart:
+  enable: true
+  mobile: false
+  color:
+    - "#FF69B4"
+    - "#FF0000"
+
+# 字体设置
+font:
+  global-font-size: 16px
+  code-font-size: 14px
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+
+# 主页文章卡片动画
+article_sort_animation:
+  enable: true
+  distance: 50
+
+# 导航栏设置
+nav:
+  enable: true
+  display_title: true
+  fixed: true
+  color: false
+  text_shadow: true
+
+# 滚动效果
+scroll:
+  progress_bar: true
+  percent: true
+
+# 音乐播放器
+aplayer:
+  meting: true
+  asset_inject: true
